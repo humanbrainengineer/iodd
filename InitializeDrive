@@ -1,0 +1,25 @@
+12. Initialize Drive
+1. Initialize drive as MBR.
+2. Format the first partition as NTFS or FAT32 or EXFAT.
+ (There are two kinds of firmware, one for NTFS, the other for FAT32 and EXFAT)
+3. Make ‘_iso’ folder in root dir on first partition.
+4. Copy *.iso or folder tree to the ‘_iso’ folder.
+5. Do safely removal. (essential)
+6. Replug USB.
+
+
+13. Error Messages
+ ‘ Err (or gErr) : xxx ‘ or others
+ => Try in the following order ( * : require in every step )
+1. Press and hold the Jog Switch, and connect USB.
+2. Check Drive.
+3. Make new _ISO folder (after rename old _ISO to other)
+4. Format HDD
+5. Retry Firmware-Update
+* Do safely removal. (essential)
+* Replug USB.
+
+
+14. Preserve Loading Status
+1. Press down and hold Jog switch for 3 Sec.
+2. Or Press and hold Menu-Exit button for 3 Sec.
