@@ -1,0 +1,29 @@
+
+Error Message	Error Message Guidelines
+NO-_ISO	There's no "_iso" folder in the device
+NO-DISC	There's no iso file or any other virtual file in the "_iso" folder
+Defrag!!	Need to defragmentation
+TOO Many FILES	There're over 32 files or folders in one folder. Please make sub-folders. (it's shown in NTFS file system)
+Err : 15	Some sectors go bad, or need to do "Check Disk"
+Err : 23 or bad or N/S HDD	some of file or directory information is missed. (Can be solved with "Check Disk")
+1st Partition : XX	1st Partition : refer below XX message
+
+
+1st Partition :XX error message	Error Message Guidelines
+1st Partition : 0	Partition is empty
+Partition is not set. Please set partition according to device's designated firmware
+1st Partition : 6	Formatted as FAT
+Please set partition according to device's designated firmware
+
+
+1st Partition : 7	Formatted as NTFS
+Please format as FAT32 or exFAT
+
+1st Partition : C	Formatted as FAT32
+Please format as NTFS
+E1st Partition : F	Extended Partition
+Please format it as Primary partition
+1st Partition : FF	Formatted as exFAT
+Please format as NTFS
+1st Partition : EE	legacy MBR is followed by an EFI header
+In "Disk Manager", please delete current volume and make a new volume
