@@ -15,9 +15,12 @@ Partition is not set. Please set partition according to device's designated firm
 1st Partition : 6	Formatted as FAT
 Please set partition according to device's designated firmware
 
-
+--------------------------------------------------------------------------
 1st Partition : 7	Formatted as NTFS
 Please format as FAT32 or exFAT
+
+use windows 7. my pc-》 manager-》 disk-》choose the disk--》format as exfat！！
+--------------------------------------------------------------------------
 
 1st Partition : C	Formatted as FAT32
 Please format as NTFS
